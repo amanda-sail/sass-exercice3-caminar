@@ -234,11 +234,53 @@ footer p a {
     padding: 10px 15px;
   }
   .bios .bio-dark h3 {
-    padding-right: 25px;
+    padding-right: 15px;
   }
 
   footer {
     margin: 0 5%;
+  }
+  footer div img {
+    width: 13px;
+    padding: 35px 2px 5px;
+  }
+  footer div .email {
+    width: 15px;
+    padding: 35px 5px 4px;
+  }
+  footer p {
+    font-size: 8px;
+    padding-bottom: 5px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 769px) {
+  .banner {
+    margin: 0 10%;
+  }
+
+  article {
+    margin: 0 10%;
+  }
+
+  .portfolio {
+    margin: 0 10%;
+  }
+
+  .bios {
+    margin: 0 10%;
+  }
+  .bios div {
+    width: 50%;
+  }
+  .bios div h3 {
+    padding-top: 40px;
+    padding-left: 25px;
+  }
+  .bios div p {
+    padding: 10px 25px;
+  }
+  .bios .bio-dark h3 {
+    padding-right: 25px;
   }
 }
 
