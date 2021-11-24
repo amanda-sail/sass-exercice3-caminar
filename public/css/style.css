@@ -1,17 +1,76 @@
-/* Error: semicolons aren't allowed in the indented syntax.
- *   ,
- * 3 |     font-family: 'Pacifico', cursive;
- *   |                                     ^
- *   '
- *   src\sass\style.sass 3:37  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: semicolons aren't allowed in the indented syntax.\a   \2577 \a 3 \2502      font-family: 'Pacifico', cursive;\a   \2502                                      ^\a   \2575 \a   src\\sass\\style.sass 3:37  root stylesheet";
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
 }
+
+body {
+  background-image: url(../images/bg.jpg);
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+}
+
+header {
+  text-align: center;
+}
+header h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 38px;
+  margin: 6% 30% 0;
+  line-height: 30px;
+}
+header p {
+  color: white;
+  font-weight: 100;
+  font-size: 10px;
+  margin: 0 0 40px;
+}
+
+.banner {
+  text-align: center;
+  margin: 0 15%;
+}
+.banner img {
+  width: 100%;
+  margin-bottom: -10px;
+}
+.banner div {
+  text-align: center;
+  width: 100%;
+  background-color: white;
+}
+.banner div h2 {
+  font-size: 16px;
+  padding: 40px 0 8px;
+}
+.banner div hr {
+  border: none;
+  border-bottom: lightgrey solid 0.5px;
+  width: 10%;
+  margin: auto;
+}
+.banner div h6 {
+  text-transform: uppercase;
+  color: lightgrey;
+  font-weight: 300;
+  font-size: 8px;
+  letter-spacing: 2px;
+  padding: 10px 0 40px;
+}
+
+article {
+  margin: 0 15%;
+}
+article p {
+  background-color: #F4F4F4;
+  color: grey;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 18px;
+  padding: 50px 50px 10px;
+}
+article p:last-of-type {
+  padding: 10px 50px 50px;
+}
+
+/*# sourceMappingURL=style.css.map */
