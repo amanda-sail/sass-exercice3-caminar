@@ -45,13 +45,13 @@ header p {
 }
 .banner div hr {
   border: none;
-  border-bottom: lightgrey solid 0.5px;
+  border-bottom: #bdbdbd solid 0.5px;
   width: 10%;
   margin: auto;
 }
 .banner div h6 {
   text-transform: uppercase;
-  color: lightgrey;
+  color: #bdbdbd;
   font-weight: 300;
   font-size: 8px;
   letter-spacing: 2px;
@@ -63,7 +63,7 @@ article {
 }
 article p {
   background-color: #F4F4F4;
-  color: grey;
+  color: #969696;
   font-weight: 300;
   font-size: 10px;
   line-height: 18px;
@@ -71,6 +71,45 @@ article p {
 }
 article p:last-of-type {
   padding: 10px 50px 50px;
+}
+
+.portfolio {
+  text-align: center;
+  margin: 0 15%;
+  background-color: #1E1F23;
+  padding: 50px;
+}
+.portfolio div {
+  margin: auto;
+  background-color: #121315;
+}
+.portfolio div h2 {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 40px 0 10px;
+  color: white;
+}
+.portfolio div hr {
+  border: none;
+  border-bottom: #4a4a4a solid 0.25px;
+  width: 8%;
+  margin: auto;
+}
+.portfolio div h6 {
+  text-transform: uppercase;
+  color: #4a4a4a;
+  font-weight: 300;
+  font-size: 8px;
+  letter-spacing: 2px;
+  padding: 10px 0 20px;
+}
+.portfolio .image-block {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.portfolio .image-block img {
+  width: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */
