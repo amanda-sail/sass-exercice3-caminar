@@ -112,4 +112,41 @@ article p:last-of-type {
   width: 50%;
 }
 
+.bios {
+  margin: 0 15%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.bios img {
+  width: 50%;
+}
+.bios div {
+  width: 50%;
+  background-color: #F4F4F4;
+}
+.bios div h3 {
+  color: #1E1F23;
+  font-size: 15px;
+  padding-top: 75px;
+  padding-left: 55px;
+}
+.bios div p {
+  color: #969696;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 17px;
+  padding: 10px 55px;
+}
+.bios .bio-dark {
+  background-color: #1E1F23;
+  text-align: right;
+}
+.bios .bio-dark h3 {
+  color: white;
+  padding-right: 55px;
+}
+.bios .bio-dark p {
+  color: #5e5e5e;
+}
+
 /*# sourceMappingURL=style.css.map */
