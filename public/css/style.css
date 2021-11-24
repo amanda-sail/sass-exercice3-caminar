@@ -29,7 +29,7 @@ header p {
 .banner {
   text-align: center;
   margin: 0 15%;
-  box-shadow: 0px 0px 10px black;
+  box-shadow: 0px -10px 10px -8px, 10px 0px 10px -8px, -10px 0px 10px -8px;
 }
 .banner img {
   width: 100%;
@@ -61,7 +61,7 @@ header p {
 
 article {
   margin: 0 15%;
-  box-shadow: 0px 0px 10px black;
+  box-shadow: 10px 0px 10px -10px, -10px 0px 10px -10px;
 }
 article p {
   background-color: #F4F4F4;
@@ -80,7 +80,7 @@ article p:last-of-type {
   margin: 0 15%;
   background-color: #1E1F23;
   padding: 50px;
-  box-shadow: 0px 0px 10px black;
+  box-shadow: 10px 0px 10px -8px, -10px 0px 10px -8px;
 }
 .portfolio div {
   margin: auto;
@@ -119,7 +119,7 @@ article p:last-of-type {
   margin: 0 15%;
   display: flex;
   flex-wrap: wrap;
-  box-shadow: 0px 0px 10px black;
+  box-shadow: 10px 0px 10px -8px, -10px 0px 10px -8px, 0px 10px 10px -8px;
 }
 .bios img {
   width: 50%;
@@ -175,6 +175,71 @@ footer p {
 }
 footer p a {
   color: #969696;
+}
+
+@media screen and (max-width: 576px) {
+  header p {
+    margin: 0 0 20px;
+  }
+
+  .banner {
+    margin: 0 5%;
+  }
+  .banner div h2 {
+    padding: 20px 0 8px;
+  }
+  .banner div h6 {
+    padding: 10px 0 20px;
+  }
+
+  article {
+    margin: 0 5%;
+  }
+  article p {
+    padding: 25px 25px 10px;
+  }
+  article p:last-of-type {
+    padding: 10px 25px 25px;
+  }
+
+  .portfolio {
+    margin: 0 5%;
+    padding: 25px;
+  }
+  .portfolio div h2 {
+    padding: 20px 0 10px;
+  }
+  .portfolio .image-block img {
+    width: 100%;
+  }
+
+  .bios {
+    margin: 0 5%;
+  }
+  .bios img {
+    width: 25%;
+    object-fit: cover;
+  }
+  .bios div {
+    width: 75%;
+  }
+  .bios div h3 {
+    font-size: 12px;
+    padding-top: 15px;
+    padding-left: 15px;
+  }
+  .bios div p {
+    font-size: 8px;
+    line-height: 15px;
+    padding: 10px 15px;
+  }
+  .bios .bio-dark h3 {
+    padding-right: 25px;
+  }
+
+  footer {
+    margin: 0 5%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
